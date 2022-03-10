@@ -209,8 +209,8 @@ nav .nav-bar .logo {
 .search-field::before {
   content: '';
   position: absolute;
-  right: 14px;
-  top: -4px;
+  right: 45px;
+  top: -5px;
   height: 12px;
   width: 12px;
   background-color: var(--nav-color);
@@ -784,4 +784,154 @@ nav .nav-bar .logo {
   padding: 8px 100px;
   text-align: center;
   color: #999;
+}
+
+/* ========== ABOUT SECTION STYLING ========== */
+.about-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: radial-gradient(var(--secondary-color), var(--nav-color));
+}
+
+.about-container {
+  background: var(--text-color);
+  max-width: 950px;
+  width: 100%;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.about-section {
+  display: flex;
+}
+
+.about-section img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+.about-section p {
+  padding-top: 1rem;
+  margin: 10px;
+  text-align: justify;
+  text-indent: 50px;
+}
+
+.about-section button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 130px;
+  padding: 7px 14px;
+  background: var(--secondary-color);
+  margin: 15px 20px 0 0;
+  color: #333;
+  font-weight: 600;
+  border-radius: 6px;
+}
+.about-section button:hover {
+  background: var(--nav-color);
+  color: white;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+/*===== ACCOUNT STYLING =====*/
+.account-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: radial-gradient(var(--secondary-color), var(--nav-color));
+}
+
+.account-container {
+  background: var(--text-color);
+  max-width: 950px;
+  width: 100%;
+  padding: 1.5rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.account-content {
+  position: relative;
+}
+
+.content-header {
+  display: flex;
+}
+
+.content-header .account-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.4);
+  margin-left: 10px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.content-wrapper h2,
+.content-wrapper p {
+  margin-left: 20px;
+}
+
+.account-content .account-btn {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+  margin-right: -10px;
+  height: 55px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.account-btn .acc-edit {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  padding: 4px 14px;
+  background: var(--secondary-color);
+  margin: 15px 20px 0 0;
+  color: #333;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.account-btn .acc-logout {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  padding: 4px 14px;
+  background: var(--secondary-color);
+  margin: 15px 20px 0 0;
+  color: #333;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.account-btn .acc-edit:hover,
+.account-btn .acc-logout:hover {
+  background: var(--nav-color);
+  color: white;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
 }
