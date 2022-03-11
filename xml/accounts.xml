@@ -8,17 +8,7 @@
         <lastName>santos</lastName>
         <contact>987654320</contact>
         <address>bulacan</address>
-        <profilePic>images/defaultPicture.png</profilePic>
-        <status>Online</status>
-    </account>
-    <account>
-        <email>try@gmail.com</email>
-        <password>try1</password>
-        <firstName>try</firstName>
-        <lastName>try</lastName>
-        <contact>try</contact>
-        <address>try</address>
-        <profilePic>images/defaultPicture.png</profilePic>
+        <profilePic>img/defaultPicture.png</profilePic>
         <status>Online</status>
     </account>
 </accounts>

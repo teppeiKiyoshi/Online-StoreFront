@@ -12,6 +12,10 @@ if (isset($_SESSION['email'])) {
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="css/login-style.css" />
   <title>The Artbox | Sign In</title>
   <script src="js/verifyLogin.js"></script>
@@ -24,7 +28,7 @@ if (isset($_SESSION['email'])) {
         <!-- ===== LOGIN FORM HERE ===== -->
         <form method="POST" id="form_id" class="sign-in-form" name="myform" onsubmit="verifyLogin(this.email_login.value, this.password_login.value); return false">
           <h2 class="title">Sign in</h2>
-          <p id="errorMessage"></p>
+          <p id="errorMessage" style="color: red"></p>
           <div class="input-field">
             <i class="bx bxs-user"></i>
             <input type="email" name="email" id="email_login" placeholder="Email" required />
@@ -54,21 +58,30 @@ if (isset($_SESSION['email'])) {
           </div>
         </form>
         <!-- ===== REGISTER FORM HERE ===== -->
-        <form action="#" class="sign-up-form" id="signUp-form">
+        <form method="POST" name="myform" class="sign-up-form" id="signUp-form" onsubmit="confirmRegister(this.firstName.value,this.lastName.value, this.contact_register.value, this.email_register.value, this.password_register.value); return false">
           <h2 class="title">Sign up</h2>
+          <p id="errorMessageRegister" style="color: red"></p>
           <div class="input-field">
             <i class="bx bxs-user"></i>
-            <input type="text" placeholder="Username" />
+            <input type="text" name="fname" id="firstName" placeholder="First Name" required>
+          </div>
+          <div class="input-field">
+            <i class="bx bxs-user"></i>
+            <input type="text" name="lname" id="lastName" placeholder="Last Name" required>
+          </div>
+          <div class="input-field">
+            <i class="bx bxs-phone"></i>
+            <input type="text" name="contact" id="contact_register" placeholder="Contact Number" required>
           </div>
           <div class="input-field">
             <i class="bx bxs-envelope"></i>
-            <input type="email" placeholder="Email" />
+            <input type="email" name="email" id="email_register" placeholder="Email" required>
           </div>
           <div class="input-field">
             <i class="bx bxs-lock"></i>
-            <input type="password" placeholder="Password" />
+            <input type="password" name="pword" id="password_register" placeholder="Password" required>
           </div>
-          <input type="submit" class="btn" value="Sign up" />
+          <input type="submit" class="btn" value="Sign up" value="Register" id="register_button" />
           <p class="social-text">Or Sign up with social platforms</p>
           <div class="social-media">
             <a href="#" class="social-icon">
@@ -103,7 +116,7 @@ if (isset($_SESSION['email'])) {
       </div>
       <div class="panel right-panel">
         <div class="content">
-          <h3>One of us?</h3>
+          <h3>Already one of us?</h3>
           <p>
             It is nice to see you back! We are glad to have you as a part of
             the Artbox family. Enjoy new awesome deals and enjoy your stay!

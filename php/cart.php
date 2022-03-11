@@ -1,15 +1,7 @@
 <?php
-
-$xml = new DOMDocument();
-$xml->load("../xml/products.xml");
-$products = $xml->getElementsByTagName("product");
-
-$category = array();
-foreach ($products as $product) {
-  $cat = $product->getElementsByTagName("category")->item(0)->nodeValue;
-  if (!in_array($cat, $category)) {
-    array_push($category, $cat);
-  }
+session_start();
+if (!isset($_SESSION['email'])) {
+  header("Location: login.php");
 }
 ?>
 
@@ -20,19 +12,13 @@ foreach ($products as $product) {
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/simplePagination.js/1.6/jquery.simplePagination.min.js" integrity="sha512-9Dh726RTZVE1k5R1RNEzk1ex4AoRjxNMFKtZdcWaG2KUgjEmFYN3n17YLUrbHm47CRQB1mvVBHDFXrcnx/deDA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="../css/main.css" />
-  <link rel="stylesheet" href="../css/product.css" />
-  <script src="../js/cart.js"></script>
+  <link rel="stylesheet" href="../css/cart.css" />
   <title>The Artbox</title>
 </head>
 
-<body onload='getProduct();'>
+<body>
   <!-- NAVBAR -->
   <nav>
     <div class="nav-bar">
@@ -48,11 +34,11 @@ foreach ($products as $product) {
         </div>
 
         <ul class="nav-links">
-          <li><a href="../index.php">Home</a></li>
-          <li><a href="../about.php">About</a></li>
-          <li><a href="product.php">Product</a></li>
-          <li><a href="../account.php">Account</a></li>
-          <li><a href="#contact">Wishlist</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="php/product.php">Product</a></li>
+          <li><a href="account.php">Account</a></li>
+          <li><a href="wishlist.php">Wishlist</a></li>
         </ul>
       </div>
       <div class="main-searchBox">
@@ -74,27 +60,49 @@ foreach ($products as $product) {
       </div>
     </div>
   </nav>
+  <!-- NAVBAR END -->
+  <!-- SHOPPING CART -->
+  <section class="cart-container cart-page">
+    <table>
+      <tr>
+        <th>Product</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="../img/product/p1.jpg" alt="" width="200px">
+            <div>
+              <p>This is a Sample Product</p>
+              <small>Price: PHP 500</small>
+              <br>
+              <a href="#">Remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>PHP 500.69</td>
+      </tr>
+    </table>
 
-  <div class="small-container">
-    <div class="row row-2">
-      <div id="btnContainer">
-        <button class="btn-view" onclick="listView()"><i class="fa fa-bars"></i> List View</button>
-        <button class="btn-view active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid View</button>
-      </div>
-      <select id="prodCategory" class="select-item" onchange="getProduct(this.value);">
-        <?php
-        $html = "<option value=\"All\">All</option>";
-        foreach ($category as $cat) {
-          $html .= "<option value=\"$cat\">" . ucfirst($cat) . "</option>";
-        }
-        echo $html;
-        ?>
-      </select>
+    <div class="total-price">
+      <table>
+        <tr>
+          <td>Subtotal</td>
+          <td>PHP 700</td>
+        </tr>
+        <tr>
+          <td>Tax</td>
+          <td>PHP 70</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>PHP 770</td>
+        </tr>
+      </table>
     </div>
-    <div id="output"></div>
-    <div class="page-cont" id="page-cont"></div>
-    <script src="../js/getProduct.js"></script>
-  </div>
+  </section>
 
   <!-- FOOTER -->
   <footer id="footer" class="main-footer">
@@ -142,8 +150,8 @@ foreach ($products as $product) {
         <ul class="cont-info">
           <li>
             <span><i class='bx bx-current-location'></i></span>
-            <span>6th Floor, My Building<br />
-              123 Home Street Manila,<br />
+            <span>2nd Floor Cinderella Building,<br />
+              825 EDSA Quezon City,<br />
               Philippines</span>
           </li>
           <li>
@@ -167,7 +175,8 @@ foreach ($products as $product) {
     </p>
   </div>
 
-  <script src="../js/main.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/getProduct.js"></script>
 </body>
 
 </html>

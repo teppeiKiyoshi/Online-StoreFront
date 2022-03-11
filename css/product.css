@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 .small-container {
@@ -64,6 +65,11 @@
 .column > p {
   font-size: 0.7rem;
   letter-spacing: 1px;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  opacity: 0.5;
 }
 
 .row > .btnContainer {
