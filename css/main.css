@@ -154,6 +154,7 @@ nav .nav-bar .logo {
 .searchBox {
   position: relative;
   display: flex;
+  justify-content: space-between;
 }
 
 .shopping-cart i {
@@ -165,8 +166,8 @@ nav .nav-bar .logo {
 
 .shopping-cart .cart-count {
   position: absolute;
-  top: -5px;
-  right: -5px;
+  top: -3px;
+  right: -6px;
   background-color: #333;
   color: white;
   border-radius: 50%;

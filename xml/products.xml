@@ -5,8 +5,8 @@
   <name>Starbucks Sticker Set</name>
   <price>99.99</price>
   <stock>7</stock>
-  <category>sticker</category>
-  <imagePath>img/product/k1.jpg</imagePath>
+  <category>stiscker</category>
+  <imagePath>../img/product/k1.jpg</imagePath>
 </product>
 
 <product productID="000002">
@@ -14,7 +14,7 @@
   <price>79.00</price>
   <stock>8</stock>
   <category>sticker</category>
-  <imagePath>img/product/k2.jpg</imagePath>
+  <imagePath>../img/product/k2.jpg</imagePath>
 </product>
 
 <product productID="000003">
@@ -22,7 +22,7 @@
   <price>109.00</price>
   <stock>10</stock>
   <category>sticker</category>
-  <imagePath>img/product/k3.jpg</imagePath>
+  <imagePath>../img/product/k3.jpg</imagePath>
 </product>
 
 <product productID="000004">
@@ -30,7 +30,7 @@
   <price>89.00</price>
   <stock>9</stock>
   <category>sticker</category>
-  <imagePath>img/product/k4.jpg</imagePath>
+  <imagePath>../img/product/k4.jpg</imagePath>
 </product>
 
 <product productID="000005">
@@ -38,7 +38,7 @@
   <price>67.00</price>
   <stock>8</stock>
   <category>sticker</category>
-  <imagePath>img/product/k5.jpg</imagePath>
+  <imagePath>../img/product/k5.jpg</imagePath>
 </product>
 
 <product productID="000006">
@@ -46,7 +46,7 @@
   <price>42.00</price>
   <stock>10</stock>
   <category>sticker</category>
-  <imagePath>img/product/k6.jpg</imagePath>
+  <imagePath>../img/product/k6.jpg</imagePath>
 </product>
 
 <product productID="000007">
@@ -54,7 +54,7 @@
   <price>50.00</price>
   <stock>10</stock>
   <category>paint</category>
-  <imagePath>img/product/p1.jpg</imagePath>
+  <imagePath>../img/product/p1.jpg</imagePath>
 </product>
 
 <product productID="000008">
@@ -62,7 +62,7 @@
   <price>50.00</price>
   <stock>10</stock>
   <category>paint</category>
-  <imagePath>img/product/p2.jpg</imagePath>
+  <imagePath>../img/product/p2.jpg</imagePath>
 </product>
 
 <product productID="000009">
@@ -70,7 +70,7 @@
   <price>50.00</price>
   <stock>10</stock>
   <category>paint</category>
-  <imagePath>img/product/p3.jpg</imagePath>
+  <imagePath>../img/product/p3.jpg</imagePath>
 </product>
 
 <product productID="000010">
@@ -78,7 +78,7 @@
   <price>109.00</price>
   <stock>10</stock>
   <category>paint</category>
-  <imagePath>img/product/p4.jpg</imagePath>
+  <imagePath>../img/product/p4.jpg</imagePath>
 </product>
 
 <product productID="000011">
@@ -86,7 +86,7 @@
   <price>122.00</price>
   <stock>10</stock>
   <category>paint</category>
-  <imagePath>img/product/p5.jpg</imagePath>
+  <imagePath>../img/product/p5.jpg</imagePath>
 </product>
 
 <product productID="000012">
@@ -94,7 +94,7 @@
   <price>104.00</price>
   <stock>10</stock>
   <category>paint</category>
-  <imagePath>img/product/p6.jpg</imagePath>
+  <imagePath>../img/product/p6.jpg</imagePath>
 </product>
 
 <product productID="000013">
@@ -102,7 +102,7 @@
   <price>50.00</price>
   <stock>10</stock>
   <category>journal</category>
-  <imagePath>img/product/s1.jpg</imagePath>
+  <imagePath>../img/product/s1.jpg</imagePath>
 </product>
 
 <product productID="000014">
@@ -110,7 +110,7 @@
   <price>50.00</price>
   <stock>10</stock>
   <category>journal</category>
-  <imagePath>img/product/s2.jpg</imagePath>
+  <imagePath>../img/product/s2.jpg</imagePath>
 </product>
 
 <product productID="000015">
@@ -118,7 +118,7 @@
   <price>50.00</price>
   <stock>10</stock>
   <category>journal</category>
-  <imagePath>img/product/s3.jpg</imagePath>
+  <imagePath>../img/product/s3.jpg</imagePath>
 </product>
 
 <product productID="000016">
@@ -126,7 +126,7 @@
   <price>42.00</price>
   <stock>10</stock>
   <category>journal</category>
-  <imagePath>img/product/s4.jpg</imagePath>
+  <imagePath>../img/product/s4.jpg</imagePath>
 </product>
 
 <product productID="000017">
@@ -134,7 +134,7 @@
   <price>62.00</price>
   <stock>10</stock>
   <category>journal</category>
-  <imagePath>img/product/s5.jpg</imagePath>
+  <imagePath>../img/product/s5.jpg</imagePath>
 </product>
 
 <product productID="000018">
@@ -142,7 +142,7 @@
   <price>44.00</price>
   <stock>10</stock>
   <category>journal</category>
-  <imagePath>img/product/s6.jpg</imagePath>
+  <imagePath>../img/product/s6.jpg</imagePath>
 </product>
 
 <product productID="000019">
@@ -150,7 +150,7 @@
   <price>50.00</price>
   <stock>10</stock>
   <category>tape</category>
-  <imagePath>img/product/w1.jpg</imagePath>
+  <imagePath>../img/product/w1.jpg</imagePath>
 </product>
 
 <product productID="000020">
@@ -158,7 +158,7 @@
   <price>50.00</price>
   <stock>10</stock>
   <category>tape</category>
-  <imagePath>img/product/w2.jpg</imagePath>
+  <imagePath>../img/product/w2.jpg</imagePath>
 </product>
 
 <product productID="000021">
@@ -166,7 +166,7 @@
   <price>50.00</price>
   <stock>10</stock>
   <category>tape</category>
-  <imagePath>img/product/w3.jpg</imagePath>
+  <imagePath>../img/product/w3.jpg</imagePath>
 </product>
 
 <product productID="000022">
@@ -174,7 +174,7 @@
   <price>60.00</price>
   <stock>10</stock>
   <category>tape</category>
-  <imagePath>img/product/w4.jpg</imagePath>
+  <imagePath>../img/product/w4.jpg</imagePath>
 </product>
 
 <product productID="000023">
@@ -182,7 +182,7 @@
   <price>60.00</price>
   <stock>10</stock>
   <category>tape</category>
-  <imagePath>img/product/w5.jpg</imagePath>
+  <imagePath>../img/product/w5.jpg</imagePath>
 </product>
 
 <product productID="000024">
@@ -190,7 +190,7 @@
   <price>60.00</price>
   <stock>10</stock>
   <category>tape</category>
-  <imagePath>img/product/w6.jpg</imagePath>
+  <imagePath>../img/product/w6.jpg</imagePath>
 </product>
 
 <product productID="000025">
@@ -198,7 +198,7 @@
   <price>25.00</price>
   <stock>10</stock>
   <category>yarn</category>
-  <imagePath>img/product/y1.jpg</imagePath>
+  <imagePath>../img/product/y1.jpg</imagePath>
 </product>
 
 <product productID="000026">
@@ -206,7 +206,7 @@
   <price>30.00</price>
   <stock>10</stock>
   <category>yarn</category>
-  <imagePath>img/product/y2.jpg</imagePath>
+  <imagePath>../img/product/y2.jpg</imagePath>
 </product>
 
 <product productID="000027">
@@ -214,7 +214,7 @@
   <price>22.00</price>
   <stock>10</stock>
   <category>yarn</category>
-  <imagePath>img/product/y3.jpg</imagePath>
+  <imagePath>../img/product/y3.jpg</imagePath>
 </product>
 
 <product productID="000028">
@@ -222,7 +222,7 @@
   <price>37.00</price>
   <stock>10</stock>
   <category>yarn</category>
-  <imagePath>img/product/y4.jpg</imagePath>
+  <imagePath>../img/product/y4.jpg</imagePath>
 </product>
 
 <product productID="000029">
@@ -230,7 +230,7 @@
   <price>28.00</price>
   <stock>10</stock>
   <category>yarn</category>
-  <imagePath>img/product/y5.jpg</imagePath>
+  <imagePath>../img/product/y5.jpg</imagePath>
 </product>
 
 <product productID="000030">
@@ -238,7 +238,7 @@
   <price>42.00</price>
   <stock>10</stock>
   <category>yarn</category>
-  <imagePath>img/product/y6.jpg</imagePath>
+  <imagePath>../img/product/y6.jpg</imagePath>
 </product>
 
 <product productID="000031">
@@ -246,7 +246,7 @@
   <price>5.50</price>
   <stock>10</stock>
   <category>paper</category>
-  <imagePath>img/product/dp1.jpg</imagePath>
+  <imagePath>../img/product/dp1.jpg</imagePath>
 </product>
 
 <product productID="000032">
@@ -254,7 +254,7 @@
   <price>7.00</price>
   <stock>10</stock>
   <category>paper</category>
-  <imagePath>img/product/dp2.jpg</imagePath>
+  <imagePath>../img/product/dp2.jpg</imagePath>
 </product>
 
 <product productID="000033">
@@ -262,7 +262,7 @@
   <price>12.00</price>
   <stock>10</stock>
   <category>paper</category>
-  <imagePath>img/product/dp3.jpg</imagePath>
+  <imagePath>../img/product/dp3.jpg</imagePath>
 </product>
 
 <product productID="000034">
@@ -270,7 +270,7 @@
   <price>5.00</price>
   <stock>10</stock>
   <category>paper</category>
-  <imagePath>img/product/dp4.jpg</imagePath>
+  <imagePath>../img/product/dp4.jpg</imagePath>
 </product>
 
 <product productID="000035">
@@ -278,7 +278,7 @@
   <price>16.00</price>
   <stock>10</stock>
   <category>paper</category>
-  <imagePath>img/product/dp5.jpg</imagePath>
+  <imagePath>../img/product/dp5.jpg</imagePath>
 </product>
 
 <product productID="000036">
@@ -286,7 +286,7 @@
   <price>7.00</price>
   <stock>10</stock>
   <category>paper</category>
-  <imagePath>img/product/dp6.jpg</imagePath>
+  <imagePath>../img/product/dp6.jpg</imagePath>
 </product>
 
 <product productID="000037">
@@ -294,7 +294,7 @@
   <price>56.00</price>
   <stock>10</stock>
   <category>bottle</category>
-  <imagePath>img/product/kb1.jpg</imagePath>
+  <imagePath>../img/product/kb1.jpg</imagePath>
 </product>
 
 <product productID="000038">
@@ -302,7 +302,7 @@
   <price>52.00</price>
   <stock>10</stock>
   <category>bottle</category>
-  <imagePath>img/product/kb2.jpg</imagePath>
+  <imagePath>../img/product/kb2.jpg</imagePath>
 </product>
 
 <product productID="000039">
@@ -310,7 +310,7 @@
   <price>63.00</price>
   <stock>10</stock>
   <category>bottle</category>
-  <imagePath>img/product/kb3.jpg</imagePath>
+  <imagePath>../img/product/kb3.jpg</imagePath>
 </product>
 
 <product productID="000040">
@@ -318,7 +318,7 @@
   <price>72.00</price>
   <stock>10</stock>
   <category>bottle</category>
-  <imagePath>img/product/kb4.jpg</imagePath>
+  <imagePath>../img/product/kb4.jpg</imagePath>
 </product>
 
 <product productID="000041">
@@ -326,7 +326,7 @@
   <price>63.00</price>
   <stock>10</stock>
   <category>bottle</category>
-  <imagePath>img/product/kb5.jpg</imagePath>
+  <imagePath>../img/product/kb5.jpg</imagePath>
 </product>
 
 <product productID="000042">
@@ -334,7 +334,7 @@
   <price>92.00</price>
   <stock>10</stock>
   <category>bottle</category>
-  <imagePath>img/product/kb6.jpg</imagePath>
+  <imagePath>../img/product/kb6.jpg</imagePath>
 </product>
 
 <product productID="000043">
@@ -342,7 +342,7 @@
   <price>27.50</price>
   <stock>10</stock>
   <category>stamp</category>
-  <imagePath>img/product/rs1.jpg</imagePath>
+  <imagePath>../img/product/rs1.jpg</imagePath>
 </product>
 
 <product productID="000044">
@@ -350,7 +350,7 @@
   <price>29.00</price>
   <stock>10</stock>
   <category>stamp</category>
-  <imagePath>img/product/rs2.jpg</imagePath>
+  <imagePath>../img/product/rs2.jpg</imagePath>
 </product>
 
 <product productID="000045">
@@ -358,7 +358,7 @@
   <price>25.00</price>
   <stock>10</stock>
   <category>stamp</category>
-  <imagePath>img/product/rs3.jpg</imagePath>
+  <imagePath>../img/product/rs3.jpg</imagePath>
 </product>
 
 <product productID="000046">
@@ -366,7 +366,7 @@
   <price>31.00</price>
   <stock>10</stock>
   <category>stamp</category>
-  <imagePath>img/product/rs4.jpg</imagePath>
+  <imagePath>../img/product/rs4.jpg</imagePath>
 </product>
 
 <product productID="000047">
@@ -374,7 +374,7 @@
   <price>29.00</price>
   <stock>10</stock>
   <category>stamp</category>
-  <imagePath>img/product/rs4.jpg</imagePath>
+  <imagePath>../img/product/rs4.jpg</imagePath>
 </product>
 
 <product productID="000048">
@@ -382,7 +382,7 @@
   <price>19.00</price>
   <stock>10</stock>
   <category>stamp</category>
-  <imagePath>img/product/rs4.jpg</imagePath>
+  <imagePath>../img/product/rs4.jpg</imagePath>
 </product>
 
 <product productID="000049">
@@ -390,7 +390,7 @@
   <price>120.00</price>
   <stock>10</stock>
   <category>miniature</category>
-  <imagePath>img/product/m1.jpg</imagePath>
+  <imagePath>../img/product/m1.jpg</imagePath>
 </product>
 
 <product productID="000050">
@@ -398,7 +398,7 @@
   <price>122.00</price>
   <stock>10</stock>
   <category>miniature</category>
-  <imagePath>img/product/m2.jpg</imagePath>
+  <imagePath>../img/product/m2.jpg</imagePath>
 </product>
 
 <product productID="000051">
@@ -406,7 +406,7 @@
   <price>97.00</price>
   <stock>10</stock>
   <category>miniature</category>
-  <imagePath>img/product/m3.jpg</imagePath>
+  <imagePath>../img/product/m3.jpg</imagePath>
 </product>
 
 <product productID="000052">
@@ -414,7 +414,7 @@
   <price>109.00</price>
   <stock>10</stock>
   <category>miniature</category>
-  <imagePath>img/product/m4.jpg</imagePath>
+  <imagePath>../img/product/m4.jpg</imagePath>
 </product>
 
 <product productID="000053">
@@ -422,7 +422,7 @@
   <price>112.00</price>
   <stock>10</stock>
   <category>miniature</category>
-  <imagePath>img/product/m5.jpg</imagePath>
+  <imagePath>../img/product/m5.jpg</imagePath>
 </product>
 
 <product productID="000054">
@@ -430,7 +430,7 @@
   <price>129.00</price>
   <stock>10</stock>
   <category>miniature</category>
-  <imagePath>img/product/m6.jpg</imagePath>
+  <imagePath>../img/product/m6.jpg</imagePath>
 </product>
 
 <product productID="000055">
@@ -438,7 +438,7 @@
   <price>65.00</price>
   <stock>10</stock>
   <category>wood</category>
-  <imagePath>img/product/hw1.jpg</imagePath>
+  <imagePath>../img/product/hw1.jpg</imagePath>
 </product>
 
 <product productID="000056">
@@ -446,7 +446,7 @@
   <price>75.00</price>
   <stock>10</stock>
   <category>wood</category>
-  <imagePath>img/product/hw2.jpg</imagePath>
+  <imagePath>../img/product/hw2.jpg</imagePath>
 </product>
 
 <product productID="000057">
@@ -454,7 +454,7 @@
   <price>85.00</price>
   <stock>10</stock>
   <category>wood</category>
-  <imagePath>img/product/hw3.jpg</imagePath>
+  <imagePath>../img/product/hw3.jpg</imagePath>
 </product>
 
 <product productID="000058">
@@ -462,7 +462,7 @@
   <price>95.00</price>
   <stock>10</stock>
   <category>wood</category>
-  <imagePath>img/product/hw4.jpg</imagePath>
+  <imagePath>../img/product/hw4.jpg</imagePath>
 </product>
 
 <product productID="000059">
@@ -470,7 +470,7 @@
   <price>100.00</price>
   <stock>10</stock>
   <category>wood</category>
-  <imagePath>img/product/hw5.jpg</imagePath>
+  <imagePath>../img/product/hw5.jpg</imagePath>
 </product>
 
 <product productID="000060">
@@ -478,7 +478,7 @@
   <price>105.00</price>
   <stock>10</stock>
   <category>wood</category>
-  <imagePath>img/product/hw6.jpg</imagePath>
+  <imagePath>../img/product/hw6.jpg</imagePath>
 </product>
 
 </products>
