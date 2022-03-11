@@ -47,10 +47,10 @@ foreach ($products as $product) {
         </div>
 
         <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#programs">Product</a></li>
-          <li><a href="account.html">Account</a></li>
+          <li><a href="../index.php">Home</a></li>
+          <li><a href="../about.php">About</a></li>
+          <li><a href="product.php">Product</a></li>
+          <li><a href="../account.php">Account</a></li>
           <li><a href="#contact">Wishlist</a></li>
         </ul>
       </div>
@@ -77,10 +77,10 @@ foreach ($products as $product) {
   <div class="small-container">
     <div class="row row-2">
       <div id="btnContainer">
-        <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button>
-        <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+        <button class="btn-view" onclick="listView()"><i class="fa fa-bars"></i> List View</button>
+        <button class="btn-view active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid View</button>
       </div>
-      <select id="prodCategory" onchange="getProduct(this.value);">
+      <select id="prodCategory" class="select-item" onchange="getProduct(this.value);">
         <?php
         $html = "<option value=\"All\">All</option>";
         foreach ($category as $cat) {

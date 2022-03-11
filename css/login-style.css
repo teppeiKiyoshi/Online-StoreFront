@@ -175,10 +175,6 @@ form.sign-in-form {
   z-index: 6;
 }
 
-form .forgot-pass {
-  color: red;
-}
-
 .image {
   width: 100%;
   transition: transform 1.1s ease-in-out;

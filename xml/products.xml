@@ -5,7 +5,7 @@
   <name>Starbucks Sticker Set</name>
   <price>99.99</price>
   <stock>7</stock>
-  <category>stiscker</category>
+  <category>sticker</category>
   <imagePath>../img/product/k1.jpg</imagePath>
 </product>
 

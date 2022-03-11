@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <accounts>
-    <account><email>eman@yahoo.com</email><password>eman123</password><firstName>Martin</firstName><lastName>Marin</lastName><contact>9393939</contact><address>PH</address><profilePic>images/eman.jpg</profilePic><status>Online</status></account>
+    <account><email>eman@yahoo.com</email><password>eman123</password><firstName>Martin</firstName><lastName>Marin</lastName><contact>9393939</contact><address>PH</address><profilePic>img/eman.jpg</profilePic><status>Online</status></account>
     <account>
         <email>analyn@gmail.com</email>
         <password>ana123</password>

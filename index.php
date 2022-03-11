@@ -33,11 +33,11 @@ if (!isset($_SESSION['email'])) {
         </div>
 
         <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="about.php">About</a></li>
           <li><a href="php/product.php">Product</a></li>
           <li><a href="account.php">Account</a></li>
-          <li><a href="#contact">Wishlist</a></li>
+          <li><a href="wishlist.php">Wishlist</a></li>
         </ul>
       </div>
       <div class="main-searchBox">

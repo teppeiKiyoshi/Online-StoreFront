@@ -1,10 +1,10 @@
 <?php
 
 session_start();
-$activeEmail = $_SESSION['email'];
 
-$xml = new DOMDocument();
-$xml->load("xml/accounts.xml");
+if (!isset($_SESSION['email'])) {
+  header("Location: login.php");
+}
 ?>
 
 <!DOCTYPE html>
@@ -21,6 +21,7 @@ $xml->load("xml/accounts.xml");
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="css/main.css" />
   <title>The Artbox</title>
+  <script src="js/account.js"></script>
 </head>
 
 <body onload="userProfile();">

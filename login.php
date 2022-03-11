@@ -14,6 +14,7 @@ if (isset($_SESSION['email'])) {
   <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/login-style.css" />
   <title>The Artbox | Sign In</title>
+  <script src="js/verifyLogin.js"></script>
 </head>
 
 <body>
@@ -32,7 +33,7 @@ if (isset($_SESSION['email'])) {
             <i class="bx bxs-lock"></i>
             <input type="password" name="password" id="password_login" placeholder="Password" required />
           </div>
-          <a href="#" class="forgot-pw" style="text-decoration: none; color: cadetblue; font-size: 14px">
+          <a href="#" class="forgot-pw" style="text-decoration: none; color: black; font-size: 14px;">
             <p id=" forgot" class="forgot-pass" onclick="forgotShow();">Forgot Password?</p>
           </a>
           <input type="submit" value="Login" class="btn solid" id="login_button" />

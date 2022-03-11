@@ -60,18 +60,16 @@ function displayAll($filePath, $name, $price, $id, $recentStock)
 {
   global $html;
   $html .= "
-      <div class=\"product-wrapper\">
         <div class=\"column\" id=\"selectable\">
           <img src=$filePath id=\"prodImg\">
           <h3 id=\"prodName\">$name</h3>
           <h4 id=\"prodPrice\">$$price</h4>
           <h5 \">Quantity:<input id=\"qty-$id\" type=\"number\" class=\"input input-qty\" value=\"1\" min=\"1\" max=\"10\"/></h5>
-          <p><b>Available Stock:</b> $recentStock</p>
+          <p>$recentStock available</p>
             <div>
               <small style=\"cursor:pointer;\" id=\"mywish-$id\" class=\"mywish-id\" onclick=\"addToWish('$filePath', '$name', '$price', '$id'); return false\"><i class='bx bx-heart'></i></small>
               <input id=\"searchCartButton\" class=\"btn btn-cart\" type=\"button\" value=\"Add to Cart\" onclick=\"addToCart('$id'); return false\">
             </div>
-        </div>
         </div>
         ";
 }
